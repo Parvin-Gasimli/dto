@@ -4,7 +4,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-      "start" : "node server.js",
+    "start" : "node server.js",
     "dev":"json-server --watch data.json --port 3000"
   },
   "keywords": [],
@@ -19,6 +19,6 @@
     "nodemon": "^3.1.10"
   },
   "devDependencies": {
-    "json-server": "1.0.0-beta.3"
+ "json-server": "^0.17.3"
   }
 }
